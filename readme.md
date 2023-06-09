@@ -14,6 +14,8 @@ The included tools are:
 - [x] Create a directory, including all parent directories, if it does not already exist
 - [x] Create a URL safe slug from a string
 
+---
+
 ## Installation
 
 `go get -u github.com/SeSc838/toolkit`
