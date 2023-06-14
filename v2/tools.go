@@ -192,9 +192,9 @@ func (t *Tools) DownloadStaticFile(w http.ResponseWriter, r *http.Request, pathN
 
 // JSONResponse is the type used for sending JSON around
 type JSONResponse struct {
-	Error   bool        `josn:"error"`
-	Message string      `josn:"message"`
-	Data    interface{} `josn:"data,omitempty"`
+	Error   bool        `json:"error"`
+	Message string      `json:"message"`
+	Data    interface{} `json:"data,omitempty"`
 }
 
 // ReadJSON tries to read the body of a request and converts it from json into a go data variable
